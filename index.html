@@ -60,21 +60,21 @@
               <div class="social-area-five">
                 <div class="socials">
                   <ul>
-                    <li>
+                    <!-- <li>
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="#"><i class="fab fa-instagram-square"></i></a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="#"><i class="fab fa-youtube"></i></a>
                     </li>
                     <li>
                       <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
                 <a href="#" class="socials-text">
@@ -145,7 +145,12 @@
       </button>
       <!-- inner menu area desktop start -->
       <div class="rts-sidebar-menu-desktop">
-        <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/mazin-01.svg" alt="axela_logo"></a>
+        <a class="logo-1" href="index.html"
+          ><img
+            class="logo"
+            src="assets/images/logo/mazin-01.svg"
+            alt="axela_logo"
+        /></a>
         <div class="inner-wrapper">
           <div class="body-mobile">
             <nav class="nav-main mainmenu-nav mt--30">
@@ -239,7 +244,7 @@
         <div class="row align-items-center">
           <div class="col-xl-5 col-lg-12 order-xl-1 order-lg-2 order-2">
             <div class="banner-five-left mt_sm--30">
-              <div class="vedio-icone">
+              <div class="vedio-icone" style="position: absolute; opacity: 0">
                 <a id="play-video" class="video-play-button" href="#">
                   <span></span>
                 </a>
@@ -247,20 +252,18 @@
                   <a class="video-overlay-close">×</a>
                 </div>
               </div>
-              <span class="sub-five text-anim">What's up?</span>
+              <span class="sub-five text-anim">Hello, I'm</span>
               <h1 class="title quote">
-                <span>Email</span> Developer<span>.</span>
+                <span>Oliver</span> Saintilien<span>.</span>
               </h1>
-              
+
               <p
                 class="disc text-anim"
                 data-sal-delay="200"
                 data-sal="slide-up"
                 data-sal-duration="1000"
               >
-                Specialize in Making Responsive Emails and running Marketing
-                Campaigns <br />
-                websites, social media.
+                I Specialize in Email Development and Marketing Campaigns
               </p>
               <div class="btn-wrapper">
                 <a
@@ -311,7 +314,7 @@
         <img src="assets/images/banner/shape/12.png" alt="go-bottom" />
       </a>
       <!-- chat option start -->
-      <div class="chat-option">
+      <div class="chat-option" style="position: absolute; opacity: 0;">
         <!-- live chat access -->
         <a href="javascript:void(0);" class="live-chat-option">
           <img
@@ -338,6 +341,7 @@
 
     <!-- rts service area start -->
     <div
+      style="position: absolute; opacity: 0"
       class="rts-section-gap2Top pb--control-service bg-m-service"
       id="service"
     >
@@ -417,6 +421,51 @@
     </div>
     <!-- rts service area end -->
 
+    <!-- Skills start -->
+
+    <!-- <div class="swiper-wrapper"> -->
+    <div
+      style="
+        display: flex;
+        width: 100%;
+        height: 700px;
+        justify-content: center;
+        background-color: blueviolet;
+      "
+    >
+      <div>
+        <!-- single-service-five -->
+        <div>
+          <div class="icon">
+            <img src="assets/images/service/icon/01.png" alt="mazin-service" />
+          </div>
+        </div>
+        <!-- single-service-five end -->
+      </div>
+
+      <div>
+        <!-- single-service-five -->
+        <div>
+          <div class="icon">
+            <img src="assets/images/service/icon/02.png" alt="mazin-service" />
+          </div>
+        </div>
+        <!-- single-service-five end -->
+      </div>
+
+      <div>
+        <!-- single-service-five -->
+        <div>
+          <div class="icon">
+            <img src="assets/images/service/icon/03.png" alt="mazin-service" />
+          </div>
+        </div>
+        <!-- single-service-five end -->
+      </div>
+    </div>
+
+    <!-- skills end -->
+
     <!-- rts about area start -->
     <div class="rts-about-five mt-control-about" id="about">
       <div class="container-two">
@@ -438,14 +487,11 @@
                       data-sal="slide-up"
                       data-sal-duration="1000"
                     >
-                      Welcome to my site! My name is Oliver Saintilien and my
-                      background is in Art however I have stumbled across the
-                      world of coding and I love it. Although I know a few
-                      technologies here and there my intention is to Specialize
-                      in Email Development. In my free time you can catch me on
-                      SC2 trying to up my game!
+                      Welcome! I'm Oliver and my
+                      background is in Art however I stumbled across the
+                      world of coding and I love it! I have always been the creative type since my school days. I strive to produce quality work in all that I do. I am quite comfortable with JS, HTML and CSS. Currently I'm focusing in Email Development and marketing.However When I am not coding it up you can find me trying to up my game in SC2.
                     </p>
-                    <a
+                    <!-- <a
                       href="#"
                       class="rts-btn btn-main btn-primary-m mr--30"
                       data-sal-delay="200"
@@ -463,10 +509,13 @@
                       data-sal="slide-up"
                       data-sal-duration="1000"
                       >Download CV</a
-                    >
+                    > -->
                   </div>
                 </div>
-                <div class="col-xl-6 col-lg-12 pl--20 pl_sm--10">
+                <div
+                  style="position: absolute; opacity: 0"
+                  class="col-xl-6 col-lg-12 pl--20 pl_sm--10"
+                >
                   <!-- single progress -->
                   <div
                     class="single-progress-area-h4 mt--80"
@@ -560,6 +609,13 @@
                   </div>
                   <!-- single progress -->
                 </div>
+
+                <div style="width: 300px; margin: 0 auto">
+                  <img
+                    src="./assets/images/product/profile_placeholder.png"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -579,159 +635,166 @@
                   <img src="assets/images/about/shape/03.png" alt="" />
                   <span>Projects</span>
                 </div>
-                <h3 class="title text-anim">Latest Projects</h3>
+                <h3 class="title text-anim">Projects</h3>
               </div>
               <div class="button-area">
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
               </div>
             </div>
           </div>
         </div>
 
         <div
-          class="slider-div mazin-portfolio-div mt--20"
-          data-sal-delay="200"
-          data-sal="slide-left"
-          data-sal-duration="1000"
+          style="
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 100%;
+            background-color: rgb(240, 240, 240);
+            justify-content: flex-start;
+          "
         >
-          <!-- slider area -->
-          <div class="swiper Swiper-mazin-portfolio">
-            <div class="swiper-wrapper">
-              <!-- single swiper wrapper -->
-              <div class="swiper-slide">
-                <div class="mazin-portfolio-inner">
-                  <div class="thumbnail">
-                    <img
-                      src="assets/images/product/fiverr.png"
-                      alt="portfolio"
-                    />
-                    <a
-                      target="_blank"
-                      href="https://email-bare-fiverr.netlify.app"
-                      class="button"
-                      ><i class="far fa-long-arrow-right"></i
-                    ></a>
-                  </div>
-                  <div class="inner-content">
-                    <span class="category"> HTML CSS </span>
-                    <a href="#">
-                      <h4 class="title">Fiverr</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- single swiper wrapper -->
-
-              <!-- single swiper wrapper -->
-              <div class="swiper-slide">
-                <div class="mazin-portfolio-inner">
-                  <div class="thumbnail">
-                    <img
-                      src="assets/images/product/swanson.png"
-                      alt="portfolio"
-                    />
-                    <a
-                      href="https://mjml-email-swanson.netlify.app/"
-                      class="button"
-                      ><i class="far fa-long-arrow-right"></i
-                    ></a>
-                  </div>
-                  <div class="inner-content">
-                    <span class="category"> MJML FRAMEWORK </span>
-                    <a href="#">
-                      <h4 class="title">Swanson</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- single swiper wrapper -->
-
-              <!-- single swiper wrapper -->
-              <div class="swiper-slide">
-                <div class="mazin-portfolio-inner">
-                  <div class="thumbnail">
-                    <img
-                      src="assets/images/product/babbel.png"
-                      alt="portfolio"
-                    />
-                    <a
-                      target="_blank"
-                      href="https://email-bare-babbel.netlify.app"
-                      class="button"
-                      ><i class="far fa-long-arrow-right"></i
-                    ></a>
-                  </div>
-                  <div class="inner-content">
-                    <span class="category"> HTML CSS </span>
-                    <a href="#">
-                      <h4 class="title">Babbel</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- single swiper wrapper -->
-
-              <!-- single swiper wrapper -->
-              <div class="swiper-slide">
-                <div class="mazin-portfolio-inner">
-                  <div class="thumbnail">
-                    <img
-                      src="assets/images/product/paypal.png"
-                      alt="portfolio"
-                    />
-                    <a
-                      target="_blank"
-                      href="https://email-bare-paypal.netlify.app"
-                      class="button"
-                      ><i class="far fa-long-arrow-right"></i
-                    ></a>
-                  </div>
-                  <div class="inner-content">
-                    <span class="category">HTML CSS</span>
-                    <a href="#">
-                      <h4 class="title">Paypal</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- single swiper wrapper -->
-
-              <!-- single swiper wrapper -->
-              <div class="swiper-slide">
-                <div class="mazin-portfolio-inner">
-                  <div class="thumbnail">
-                    <img
-                      src="assets/images/product/walgreens.png"
-                      alt="portfolio"
-                    />
-                    <a
-                      target="_blank"
-                      href="https://email-mjml-walgreens.netlify.app"
-                      class="button"
-                      ><i class="far fa-long-arrow-right"></i
-                    ></a>
-                  </div>
-                  <div class="inner-content">
-                    <span class="category">MJML FRAMEWORK</span>
-                    <a href="#">
-                      <h4 class="title">Walgreens</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- single swiper wrapper -->
-            </div>
+          <!-- BABBEL -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a target="_blank" href="https://email-bare-babbel.netlify.app/">
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/babbel.png"
+              />
+            </a>
           </div>
-          <!-- slider area -->
-          <div class="swiper-pagination"></div>
+
+          <!-- SWANSONS -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a target="_blank" href="https://email-bare-swanson.netlify.app/">
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/swanson.png"
+              />
+            </a>
+          </div>
+
+          <!-- FIVERR -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a target="_blank" href="https://email-mjml-fiverr.netlify.app/">
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/fiverr.png"
+              />
+            </a>
+          </div>
+
+          <!-- WALGREENS -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a target="_blank" href="https://email-mjml-walgreens.netlify.app/">
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/walgreens.png"
+              />
+            </a>
+          </div>
+
+          <!-- PAYPAL -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a target="_blank" href="https://email-bare-paypal.netlify.app/">
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/paypal.png"
+              />
+            </a>
+          </div>
+
+          <!-- WESTERN UNION -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a
+              target="_blank"
+              href="https://email-mjml-western-union.netlify.app/"
+            >
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/western_union.png"
+              />
+            </a>
+          </div>
+
+          <!-- NEW YORK TIMES -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a
+              target="_blank"
+              href="https://email-mjml-new-york-times.netlify.app/"
+            >
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/newyork_times.png"
+              />
+            </a>
+          </div>
+
+          <!-- TURBO TAX -->
+          <div
+            style="
+              width: 200px;
+              margin: 10px;
+              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+            "
+          >
+            <a target="_blank" href="https://email-mjml-turbotax.netlify.app/">
+              <img
+                style="border-radius: 15px"
+                src="./assets/images/product/turbo_tax.png"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
     <!-- my latest project area end -->
 
     <!-- education area start -->
-    <div class="education-area">
+    <div class="education-area" style="padding-bottom: 100px;">
       <div class="container-two">
         <div class="row mt--110">
           <div class="col-lg-12">
@@ -742,11 +805,11 @@
               data-sal-duration="1000"
             >
               <h3 class="title">Education</h3>
-              <p class="sub-title">
+              <!-- <p class="sub-title">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit. lorem
                 ipsum
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -844,14 +907,17 @@
     </div>
     <!-- education area end -->
 
+
+
+
     <!-- marquery tesxt area start -->
-    <div class="pt--135 pt_sm--50 marquery-area">
+    <!-- <div class="pt--135 pt_sm--50 marquery-area">
       <div class="marquee_text pb--140 pb_sm--50">CV<span>.</span>hire me</div>
-    </div>
+    </div> -->
     <!-- marquery tesxt area end -->
 
     <!-- awaqrd and recognization area start -->
-    <div class="rts-award-area">
+    <div class="rts-award-area" style="position: absolute; opacity: 0">
       <div class="container-two mt--30">
         <div class="row">
           <div class="col-lg-6">
@@ -981,7 +1047,10 @@
     <!-- awaqrd and recognization area end -->
 
     <!-- rts progreaa bar area -->
-    <div class="rts-section-gap rts-circle-progress">
+    <div
+      class="rts-section-gap rts-circle-progress"
+      style="position: absolute; opacity: 0"
+    >
       <div class="container-two">
         <div class="row g-5">
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
@@ -1118,7 +1187,10 @@
     <!-- rts progreaa bar area end -->
 
     <!-- faq section start -->
-    <div class="rts-faq-section rts-section-gap2Bottom">
+    <div
+      class="rts-faq-section rts-section-gap2Bottom"
+      style="position: absolute; opacity: 0"
+    >
       <div class="container-two">
         <div class="row">
           <div class="col-lg-12">
@@ -1301,9 +1373,8 @@
                   <h3 class="title text-anim">Contact Me</h3>
                 </div>
                 <p class="disc">
-                  Get in touch by staying connected with us. If you have any
-                  question about process or company? Let us know how we can
-                  help.
+                  Get in touch by staying connected. If you have any question
+                  for me, just ask!
                 </p>
 
                 <!-- contact form area- start -->
@@ -1358,22 +1429,25 @@
           </div>
         </div>
       </div>
-      <div class="map-area-mazin">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7302.162372926391!2d90.40982389990846!3d23.78012313813789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1674468306962!5m2!1sen!2sbd"
-          width="900"
-          height="800"
+      <div  class="map-area-mazin">
+        <img
+          src="assets/images/product/profile_placeholder.png"
+          width="700"
+          height="600"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        ></img>
       </div>
     </div>
     <!-- contact area end -->
 
     <!-- rts testimonials area start -->
-    <div class="rts-mazin-testimonials-area rts-section-gap2Top">
+    <div
+      class="rts-mazin-testimonials-area rts-section-gap2Top"
+      style="position: absolute; opacity: 0"
+    >
       <div class="container-two mazin-cont">
         <div class="row">
           <div class="col-lg-12">
@@ -1508,7 +1582,11 @@
     <!-- rts testimonials area end -->
 
     <!-- rts blog area start -->
-    <div class="rts-section-gap2 rts-blog-area" id="blog">
+    <div
+      class="rts-section-gap2 rts-blog-area"
+      id="blog"
+      style="position: absolute; opacity: 0"
+    >
       <div class="container-two">
         <div class="row">
           <div class="col-lg-6">
@@ -1639,7 +1717,10 @@
     <!-- rts blog area end -->
 
     <!-- rts callto action area start -->
-    <div class="rts-call-to-action text-anim">
+    <div
+      class="rts-call-to-action text-anim"
+      style="position: absolute; opacity: 0"
+    >
       <div class="container-two">
         <div class="row">
           <div class="col-lg-12">
@@ -1668,7 +1749,10 @@
     <!-- rts callto action area end -->
 
     <!-- rts footer area start -->
-    <div class="rts-footer-area rts-section-gap2 bg-footer-mazin">
+    <div
+      class="rts-footer-area rts-section-gap2 bg-footer-mazin"
+      style="position: absolute; opacity: 0"
+    >
       <div class="container-two">
         <div class="row">
           <div class="col-lg-12">
@@ -1865,7 +1949,7 @@
                   >
                   <div class="rts-check-main">
                     <ul class="check-wrapper">
-                      <div class="form-check">
+                      <!-- <div class="form-check">
                         <input
                           class="form-check-input"
                           type="checkbox"
@@ -1875,7 +1959,7 @@
                         <label class="form-check-label" for="flexCheckDefault">
                           SEO
                         </label>
-                      </div>
+                      </div> -->
                       <div class="form-check">
                         <input
                           class="form-check-input"
@@ -1884,7 +1968,7 @@
                           id="flexCheckChecked"
                         />
                         <label class="form-check-label" for="flexCheckChecked">
-                          MArketing
+                          Email Dev
                         </label>
                       </div>
                       <div class="form-check">
@@ -1909,32 +1993,7 @@
                           class="form-check-label"
                           for="flexCheckCheckedes"
                         >
-                          Design
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckCheckeda"
-                        />
-                        <label class="form-check-label" for="flexCheckCheckeda">
-                          Logo making
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefaultsa"
-                        />
-                        <label
-                          class="form-check-label"
-                          for="flexCheckDefaultsa"
-                        >
-                          Intorior
+                          App Development
                         </label>
                       </div>
                       <div class="form-check">
@@ -1948,7 +2007,7 @@
                           class="form-check-label"
                           for="flexCheckCheckedes1"
                         >
-                          Site Managment
+                          Content Editor
                         </label>
                       </div>
                     </ul>
