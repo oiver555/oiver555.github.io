@@ -22421,6 +22421,9 @@ body.photographer-home.dark-version ul#mobile-menu-active li a {
   height: 88%;
   -webkit-filter: grayscale(100%);
 }
+.rts-contact-area {
+  -webkit-filter: grayscale(0%) !important;
+}
 @media (max-width: 991px) {
   .rts-contact-area .map-area-mazin {
     display: none;

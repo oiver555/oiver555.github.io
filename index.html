@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/plugins/unicons.css" />
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mystyles.css" />
   </head>
 
   <body class="home-mazin">
@@ -244,7 +245,7 @@
         <div class="row align-items-center">
           <div class="col-xl-5 col-lg-12 order-xl-1 order-lg-2 order-2">
             <div class="banner-five-left mt_sm--30">
-              <div class="vedio-icone" style="position: absolute; opacity: 0">
+              <div class="vedio-icone" style="display: none">
                 <a id="play-video" class="video-play-button" href="#">
                   <span></span>
                 </a>
@@ -287,12 +288,12 @@
               >
                 <img
                   data-depth="0.1"
-                  src="assets/images/banner/banner-05.png"
+                  src="assets/images/banner/banner-07.png"
                   alt="personal-image"
                 />
-                <div class="image-shape">
+                <!-- <div class="image-shape">
                   <img src="assets/images/banner/shape/14.png" alt="shape" />
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -301,7 +302,7 @@
       <div class="shape-bottom">
         <img src="assets/images/banner/shape/11.png" alt="banner-image" />
       </div>
-      <div class="text-bottom">
+      <div style="display: none" class="text-bottom">
         <h2>
           <span class="number counter">100</span>
         </h2>
@@ -314,7 +315,7 @@
         <img src="assets/images/banner/shape/12.png" alt="go-bottom" />
       </a>
       <!-- chat option start -->
-      <div class="chat-option" style="position: absolute; opacity: 0;">
+      <div class="chat-option" style="display: none">
         <!-- live chat access -->
         <a href="javascript:void(0);" class="live-chat-option">
           <img
@@ -339,9 +340,17 @@
     </div>
     <!-- rts banner area ahome five  end-->
 
+    <div style="margin: 0 auto; width: 100%">
+      <h3
+        style="margin: 0 auto; text-align: center; font-size: 40px"
+        class="title"
+      >
+        Skills
+      </h3>
+    </div>
     <!-- rts service area start -->
     <div
-      style="position: absolute; opacity: 0"
+      style="display: none"
       class="rts-section-gap2Top pb--control-service bg-m-service"
       id="service"
     >
@@ -427,41 +436,133 @@
     <div
       style="
         display: flex;
+        flex-wrap: wrap;
         width: 100%;
         height: 700px;
-        justify-content: center;
+        justify-content: flex-start;
+        align-content: flex-start;
+        padding: 50px 100px 100px 100px;
         background-color: blueviolet;
+        text-align: center;
       "
     >
-      <div>
-        <!-- single-service-five -->
-        <div>
-          <div class="icon">
-            <img src="assets/images/service/icon/01.png" alt="mazin-service" />
-          </div>
-        </div>
-        <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <a
+          href="https://www.adobe.com/products/photoshop.html?promoid=RBS7NL7F&mv=other"
+          target="_blank"
+        >
+          <img
+            width="50px"
+            height="50px"
+            src="assets/images/icons/Adobe_Photoshop_CS6_icon.png"
+            alt="mazin-service"
+          />
+        </a>
       </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <a href="" target="_blank"></a>
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/js.jpg"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/mjml.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
 
-      <div>
-        <!-- single-service-five -->
-        <div>
-          <div class="icon">
-            <img src="assets/images/service/icon/02.png" alt="mazin-service" />
-          </div>
-        </div>
-        <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="100px"
+          src="assets/images/icons/Salesforce-Logo.png"
+          alt="mazin-service"
+        />
       </div>
+      <!-- single-service-five end -->
 
-      <div>
-        <!-- single-service-five -->
-        <div>
-          <div class="icon">
-            <img src="assets/images/service/icon/03.png" alt="mazin-service" />
-          </div>
-        </div>
-        <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/React-icon.svg.png"
+          alt="mazin-service"
+        />
       </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/node.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/bat.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/Divi.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/wordpress.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/htm5.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
+      <!-- single-service-five -->
+      <div style="height: 100px; width: 25%; margin: 0; padding: 0">
+        <img
+          width="50px"
+          height="50px"
+          src="assets/images/icons/css3.png"
+          alt="mazin-service"
+        />
+      </div>
+      <!-- single-service-five end -->
     </div>
 
     <!-- skills end -->
@@ -487,9 +588,18 @@
                       data-sal="slide-up"
                       data-sal-duration="1000"
                     >
-                      Welcome! I'm Oliver and my
-                      background is in Art however I stumbled across the
-                      world of coding and I love it! I have always been the creative type since my school days. I strive to produce quality work in all that I do. I am quite comfortable with JS, HTML and CSS. Currently I'm focusing in Email Development and marketing.However When I am not coding it up you can find me trying to up my game in SC2.
+                      Welcome! I'm Oliver and my background is in
+                      <a href="https://vimeo.com/oliversaint">3D Art</a> however
+                      I have stumbled across the world of coding and I love it!
+                      Since my school days I have always been on the creative
+                      side. It has always been my pleasure to create visually
+                      appealing work, and through code I can continue this
+                      passion technically. I am quite comfortable with JS, HTML,
+                      CSS and even React Native. When not coding you can find me
+                      trying to up my
+                      <a href="https://starcraft2.com/en-us/">game</a> or
+                      getting a good work out or trying to catch up on some
+                      anime.
                     </p>
                     <!-- <a
                       href="#"
@@ -513,7 +623,7 @@
                   </div>
                 </div>
                 <div
-                  style="position: absolute; opacity: 0"
+                  style="display: none"
                   class="col-xl-6 col-lg-12 pl--20 pl_sm--10"
                 >
                   <!-- single progress -->
@@ -612,7 +722,7 @@
 
                 <div style="width: 300px; margin: 0 auto">
                   <img
-                    src="./assets/images/product/profile_placeholder.png"
+                    src="./assets/images/product/profile_pic_3.jpg"
                     alt=""
                   />
                 </div>
@@ -632,8 +742,8 @@
             <div class="left-title-mazin button">
               <div class="title-btn-area-title">
                 <div class="subtitle">
-                  <img src="assets/images/about/shape/03.png" alt="" />
-                  <span>Projects</span>
+                  <!-- <img src="assets/images/about/shape/03.png" alt="" />
+                  <span>Projects</span> -->
                 </div>
                 <h3 class="title text-anim">Projects</h3>
               </div>
@@ -644,149 +754,317 @@
             </div>
           </div>
         </div>
-
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            max-width: 100%;
-            background-color: rgb(240, 240, 240);
-            justify-content: flex-start;
-          "
-        >
-          <!-- BABBEL -->
+        <div></div>
           <div
             style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
             "
           >
-            <a target="_blank" href="https://email-bare-babbel.netlify.app/">
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/babbel.png"
-              />
-            </a>
-          </div>
-
-          <!-- SWANSONS -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a target="_blank" href="https://email-bare-swanson.netlify.app/">
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/swanson.png"
-              />
-            </a>
-          </div>
-
-          <!-- FIVERR -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a target="_blank" href="https://email-mjml-fiverr.netlify.app/">
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/fiverr.png"
-              />
-            </a>
-          </div>
-
-          <!-- WALGREENS -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a target="_blank" href="https://email-mjml-walgreens.netlify.app/">
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/walgreens.png"
-              />
-            </a>
-          </div>
-
-          <!-- PAYPAL -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a target="_blank" href="https://email-bare-paypal.netlify.app/">
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/paypal.png"
-              />
-            </a>
-          </div>
-
-          <!-- WESTERN UNION -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a
-              target="_blank"
-              href="https://email-mjml-western-union.netlify.app/"
+            <!-- BABBEL -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
             >
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/western_union.png"
-              />
-            </a>
-          </div>
-
-          <!-- NEW YORK TIMES -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a
-              target="_blank"
-              href="https://email-mjml-new-york-times.netlify.app/"
+              <a target="_blank" href="https://email-bare-babbel.netlify.app/">
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/babbel.png"
+                />
+              </a>
+            </div>
+            <!-- SWANSONS -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
             >
-              <img
-                style="border-radius: 15px"
-                src="./assets/images/product/newyork_times.png"
-              />
-            </a>
-          </div>
+              <a target="_blank" href="https://email-bare-swanson.netlify.app/">
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/swanson.png"
+                />
+              </a>
+            </div>
+            <!-- FIVERR -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a target="_blank" href="https://email-mjml-fiverr.netlify.app/">
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/fiverr.png"
+                />
+              </a>
+            </div>
+            <!-- WALGREENS -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a
+                target="_blank"
+                href="https://email-mjml-walgreens.netlify.app/"
+              >
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/walgreens.png"
+                />
+              </a>
+            </div>
+            <!-- PAYPAL -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a target="_blank" href="https://email-bare-paypal.netlify.app/">
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/paypal.png"
+                />
+              </a>
+            </div>
+            <!-- WESTERN UNION -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a
+                target="_blank"
+                href="https://email-mjml-western-union.netlify.app/"
+              >
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/western_union.png"
+                />
+              </a>
+            </div>
+            <!-- NEW YORK TIMES -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a
+                target="_blank"
+                href="https://email-mjml-new-york-times.netlify.app/"
+              >
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/newyork_times.png"
+                />
+              </a>
+            </div>
+            <!-- TURBO TAX -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a
+                target="_blank"
+                href="https://email-mjml-turbotax.netlify.app/"
+              >
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/mail.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/turbo_tax.png"
+                />
+              </a>
+            </div>
+            <!-- TOMS BURGER -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a target="_blank" href="https://osaint-sample-sites.com/">
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/wordpress.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/toms_burger.png"
+                />
+              </a>
+            </div>
+            <!-- RENT A CAR -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a
+                target="_blank"
+                href="https://osaint-sample-sites.com/rent-a-car/"
+              >
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/wordpress.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/rent_a_car.png"
+                />
+              </a>
+            </div>
+            <!-- DUPONT BAILEY -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+              "
+            >
+              <a
+                target="_blank"
+                href="https://osaint-sample-sites.com/wordpress-sample-2/"
+              >
+                <div class="card-overlay">
+                  <img width="75" src="assets/images/icons/wordpress.png" />
+                </div>
+                <img
+                  style="border-radius: 15px"
+                  src="./assets/images/product/dupont_bailey.png"
+                />
+              </a>
+            </div>
+            <!-- VTHWRITINGS -->
+            <div
+              style="
+                width: 250px;
+                margin: 10px;
+                filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
+                overflow: hidden;
+              "
+            >
+              <div class="card-overlay">
+                <a
+                  class="overlay"
+                  style="
+                    border-bottom: 1px solid white;
+                    text-align: center;
+                    width: 100%;
+                    flex: 1;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    border-radius: 15px 15px 0px 0;
+                  "
+                  href="https://apps.apple.com/us/app/vth-writings/id1670498766"
+                  target="_blank"
+                >
+                  <img
+                    style="position: relative; right: 0"
+                    width="70"
+                    src="assets/images/icons/ios.png"
+                  />
+                </a>
+                <a
+                  href="https://appetize.io/embed/spwrrf2h2kequwnypt4i3nyh54"
+                  target="_blank"
+                  class="overlay"
+                  id="app-vth"
+                  style="
+                    text-align: center;
+                    width: 100%;
+                    flex: 1;
+                    cursor: pointer;
+                  "
+                >
+                  <img width="100" src="assets/images/icons/cellphone.png" />
+                </a>
+                <a
+                  class="overlay"
+                  href="https://play.google.com/store/apps/details?id=com.oiver55.vthwritings"
+                  target="_blank"
+                  style="
+                    border-top: 1px solid white;
+                    width: 100%;
+                    flex: 1;
+                    border-radius: 0 0 15px 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    width="70"
+                    style="position: relative; right: 0; object-fit: cover"
+                    src="assets/images/icons/android.png"
+                  />
+                </a>
+              </div>
 
-          <!-- TURBO TAX -->
-          <div
-            style="
-              width: 200px;
-              margin: 10px;
-              filter: drop-shadow(10px 10px 4px rgba(100, 100, 100, 0.7));
-            "
-          >
-            <a target="_blank" href="https://email-mjml-turbotax.netlify.app/">
               <img
                 style="border-radius: 15px"
-                src="./assets/images/product/turbo_tax.png"
+                src="./assets/images/product/vthwritings.png"
               />
-            </a>
+              <div
+                id="vth"
+                style="position: absolute; top: -630px; width: 300px"
+              >
+                <iframe
+                  width="300"
+                  height="630"
+                  src="https://appetize.io/embed/spwrrf2h2kequwnypt4i3nyh54"
+                  scrolling="no"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+            <!-- <div style="position: absolute; background: blue;">hi there</div> -->
           </div>
         </div>
       </div>
@@ -794,7 +1072,7 @@
     <!-- my latest project area end -->
 
     <!-- education area start -->
-    <div class="education-area" style="padding-bottom: 100px;">
+    <div class="education-area" style="padding-bottom: 100px">
       <div class="container-two">
         <div class="row mt--110">
           <div class="col-lg-12">
@@ -907,9 +1185,6 @@
     </div>
     <!-- education area end -->
 
-
-
-
     <!-- marquery tesxt area start -->
     <!-- <div class="pt--135 pt_sm--50 marquery-area">
       <div class="marquee_text pb--140 pb_sm--50">CV<span>.</span>hire me</div>
@@ -917,7 +1192,7 @@
     <!-- marquery tesxt area end -->
 
     <!-- awaqrd and recognization area start -->
-    <div class="rts-award-area" style="position: absolute; opacity: 0">
+    <div class="rts-award-area" style="display: none">
       <div class="container-two mt--30">
         <div class="row">
           <div class="col-lg-6">
@@ -1047,10 +1322,7 @@
     <!-- awaqrd and recognization area end -->
 
     <!-- rts progreaa bar area -->
-    <div
-      class="rts-section-gap rts-circle-progress"
-      style="position: absolute; opacity: 0"
-    >
+    <div class="rts-section-gap rts-circle-progress" style="display: none">
       <div class="container-two">
         <div class="row g-5">
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
@@ -1187,10 +1459,7 @@
     <!-- rts progreaa bar area end -->
 
     <!-- faq section start -->
-    <div
-      class="rts-faq-section rts-section-gap2Bottom"
-      style="position: absolute; opacity: 0"
-    >
+    <div class="rts-faq-section rts-section-gap2Bottom" style="display: none">
       <div class="container-two">
         <div class="row">
           <div class="col-lg-12">
@@ -1429,16 +1698,16 @@
           </div>
         </div>
       </div>
-      <div  class="map-area-mazin">
+      <div class="map-area-mazin">
         <img
-          src="assets/images/product/profile_placeholder.png"
+          src="assets/images/product/profile_2.jpeg"
           width="700"
           height="600"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></img>
+        />
       </div>
     </div>
     <!-- contact area end -->
@@ -1446,7 +1715,7 @@
     <!-- rts testimonials area start -->
     <div
       class="rts-mazin-testimonials-area rts-section-gap2Top"
-      style="position: absolute; opacity: 0"
+      style="display: none"
     >
       <div class="container-two mazin-cont">
         <div class="row">
@@ -1582,11 +1851,7 @@
     <!-- rts testimonials area end -->
 
     <!-- rts blog area start -->
-    <div
-      class="rts-section-gap2 rts-blog-area"
-      id="blog"
-      style="position: absolute; opacity: 0"
-    >
+    <div class="rts-section-gap2 rts-blog-area" id="blog" style="display: none">
       <div class="container-two">
         <div class="row">
           <div class="col-lg-6">
@@ -1717,10 +1982,7 @@
     <!-- rts blog area end -->
 
     <!-- rts callto action area start -->
-    <div
-      class="rts-call-to-action text-anim"
-      style="position: absolute; opacity: 0"
-    >
+    <div class="rts-call-to-action text-anim" style="display: none">
       <div class="container-two">
         <div class="row">
           <div class="col-lg-12">
@@ -1751,7 +2013,7 @@
     <!-- rts footer area start -->
     <div
       class="rts-footer-area rts-section-gap2 bg-footer-mazin"
-      style="position: absolute; opacity: 0"
+      style="display: none"
     >
       <div class="container-two">
         <div class="row">
