@@ -22,6 +22,7 @@
   </head>
 
   <body class="home-mazin">
+   
     <!-- header style area -->
     <div class="rts-header-five header--sticky">
       <div class="container-three">
@@ -264,7 +265,7 @@
                 data-sal="slide-up"
                 data-sal-duration="1000"
               >
-                I Specialize in Email Development and Marketing Campaigns
+                I Specialize in Email and Web Development
               </p>
               <div class="btn-wrapper">
                 <a
@@ -640,10 +641,11 @@
                         >chess playing,</a
                       >
                       <a
+                      id="playlist-btn"
                         style="text-decoration: underline"
-                        href="https://open.spotify.com/playlist/0UvJhgu6FflF9iySaRglXh?si=b430c7e6d7fd4b78"
-                        target="_blank"
-                        >throw back listening,</a
+                        href="#"
+                       
+                        >throwback junkie,</a
                       >
                       late night coding,
                       <a
@@ -2435,7 +2437,7 @@
     </div>
 
     <!-- progress Back to top -->
-    <div class="progress-wrap">
+    <!-- <div class="progress-wrap">
       <svg
         class="progress-circle svg-content"
         width="100%"
@@ -2444,8 +2446,21 @@
       >
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
-    </div>
+    </div> -->
     <!-- progress Back to top End -->
+
+    <div id="playlist" style="position: fixed; bottom: 0px; transform: translateY(200px); width: 100%; z-index: 1000; transition: transform 0.5s ease;">
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/0UvJhgu6FflF9iySaRglXh?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
 
     <!-- scripts -->
 
@@ -2481,5 +2496,6 @@
 
     <!-- main js hear -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>
