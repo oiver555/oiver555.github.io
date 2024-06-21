@@ -1,8 +1,10 @@
 <?php
+ echo  "hi theredgwgwgregr";
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
+       
 		$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $lname = strip_tags(trim($_POST["lname"]));
 		$lname = str_replace(array("\r","\n"),array(" "," "),$name);
